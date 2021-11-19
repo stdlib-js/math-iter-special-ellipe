@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterEllipe
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which computes the [complete elliptic integral of the second kind][@stdlib/math/base/special/ellipe] for each iterated value.
 
@@ -137,6 +137,21 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/base/special/ellipe`][@stdlib/math/base/special/ellipe]</span><span class="delimiter">: </span><span class="description">compute the complete elliptic integral of the second kind.</span>
+-   <span class="package-name">[`@stdlib/math/iter/special/ellipk`][@stdlib/math/iter/special/ellipk]</span><span class="delimiter">: </span><span class="description">create an iterator which computes the complete elliptic integral of the first kind for each iterated value.</span>
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -182,8 +197,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-special-ellipe/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-iter-special-ellipe?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-iter-special-ellipe.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-iter-special-ellipe/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -196,7 +215,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
+<!-- <related-links> -->
+
 [@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
+
+[@stdlib/math/iter/special/ellipk]: https://github.com/stdlib-js/math-iter-special-ellipk
+
+<!-- </related-links> -->
 
 </section>
 
